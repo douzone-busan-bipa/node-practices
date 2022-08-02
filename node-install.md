@@ -285,7 +285,7 @@
     tar xvfz node-v16.15.1-linux-x64.tar.gz
     
 	cd node-v16.15.1
-	./configure --prefix=/usr/local/kickscar/node-v16.15.1
+	./configure --prefix=/usr/local/dozuone/node16.15.1
     make && make install
 	
     ```
@@ -293,7 +293,7 @@
 3.	링크 작업
 
     ```sh
-    ln -s /usr/local/kickscar/node-v14.4.0 /usr/local/kickscar/node
+    ln -s /usr/local/dozuone/node16.15.1 /usr/local/dozuone/node
 	
     ```
 
@@ -301,7 +301,7 @@
 
     ```sh
     # node 
-    export PATH=$PATH:/usr/local/kickscar/node/bin
+    export PATH=$PATH:/usr/local/dozuone/node/bin
     ```
 
 5.	설정 적용 및 설치 확인
