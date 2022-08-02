@@ -281,11 +281,11 @@
     v14.4.0을 설치할 것이다. /usr/local/kickscar/node-v14.4.0에 설치할 것이다.
 
     ```sh
-    wget https://nodejs.org/dist/v14.4.0/node-v14.4.0.tar.gz
-    tar xvfz node-v14.4.0.tar.gz
+    wget https://nodejs.org/dist/v16.15.1/node-v16.15.1-linux-x64.tar.gz
+    tar xvfz node-v16.15.1-linux-x64.tar.gz
     
-	cd node-v14.4.0
-	./configure --prefix=/usr/local/kickscar/node-v14.4.0
+	cd node-v16.15.1
+	./configure --prefix=/usr/local/kickscar/node-v16.15.1
     make && make install
 	
     ```
